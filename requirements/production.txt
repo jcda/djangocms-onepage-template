@@ -1,0 +1,12 @@
+# Pro-tip: Try not to put anything here. There should be no dependency in
+#	production that isn't in development.
+-r base.txt
+
+gunicorn
+
+lxml
+psycopg2
+python3-memcached
+
+# Sentry. Newer versions work best with (unreleased) Sentry 8.5+
+raven

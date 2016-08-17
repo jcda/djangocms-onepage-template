@@ -1,0 +1,31 @@
+Django>=1.10
+tg-utils
+django-crispy-forms
+django_compressor
+django-webpack-loader
+django-settings-export
+# Needed if you use utils.hashmodels.ModelHashIdMixin
+hashids
+psycopg2
+#Django cms stuff
+django-cms
+django-treebeard
+
+https://github.com/divio/djangocms-column/archive/master.zip?1460572695.0005455
+https://github.com/divio/djangocms-googlemap/archive/master.zip?1460572695.0005455
+https://github.com/divio/djangocms-inherit/archive/master.zip?1460572695.0005455
+https://github.com/divio/djangocms-link/archive/master.zip?1460572695.0005455
+https://github.com/divio/djangocms-style/archive/master.zip?1460572695.0005455
+easy_thumbnails
+django-filer
+cmsplugin-filer
+djangocms-admin-style
+djangocms-text-ckeditor
+pytz
+tzlocal
+django-reversion>=1.10,<1.11
+django-classy-tags>=0.3.4.1
+html5lib
+Pillow>=2.3
+django-sekizai>=0.7
+argparse
